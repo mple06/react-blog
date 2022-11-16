@@ -109,7 +109,7 @@ function App() {
             handleDelete={handleDelete}
           />} />
         </Route>
-        <Route path="/edit/:id" element={<EditPost
+        <Route path="edit/:id" element={<EditPost
           posts={posts}
           handleEdit={handleEdit}
           editTitle={editTitle}
